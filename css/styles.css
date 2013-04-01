@@ -57,15 +57,14 @@ ul.entries img {
   width: 800px;
 }
  
-ul.entries l1 h3 {
+ul.entries li h3 {
   position: absolute;
-  top: 18px;
+  bottom: -18px;
   left: 17px;
   font-size: 2em;
 }
-
 ul.entries a {
-  color: black; #####ececec;
+  color: #ececec;
 }
 ul.entries a:hover {
   color: #fff;

@@ -7,19 +7,31 @@ title: Pages
   <h2>Pages</h2>
  </section>
  
-<ul class="entries">
-  {% for post in site.posts %}
+<div class="row-fluid">
+  <div class="span9">
+  <ul class="entries">
+    {% for post in site.posts %}
  
-  <li>
+   <li>
     <!--<a href="{{ post.url }}">-->
     <a>
-      <img src="{{ post.image }}" />
-      <h3>{{ post.title }}</h3>
-      <p>{{ post.content }}</p>
-    </a>
-  </li>
- 
+       <img src="{{ post.image }}" />
+       <h3>{{ post.title }}</h3>
+       <p>{{ post.content }}</p>
+     </a>
+    </li>
+   {% endfor %}
+ </ul>
+  </div>
+  <div class="span3">
+ <h3>Timeline</h3> 
+<ul class="posts">
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
+  </div>
+</div>
+
 
 
