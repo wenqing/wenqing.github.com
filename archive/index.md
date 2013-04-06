@@ -1,6 +1,5 @@
 ---
-layout: default
-title: Achieve
+layout: page
 tagline: Supporting tagline
 ---
 <section class="Achieve">

@@ -1,27 +1,25 @@
 ---
 layout: default
-title: Pages
 ---
- 
-<section class="content">
-  <h2>Pages</h2>
- </section>
  
 <div class="row-fluid">
   <div class="span9">
   <ul class="entries">
+
     {% for post in site.posts %}
- 
-   <li>
-    <!--<a href="{{ post.url }}">-->
-    <a>
-       <img src="{{ post.image }}" />
-       <h3>{{ post.title }}</h3>
-       <p>{{ post.content }}</p>
-     </a>
-    </li>
-   {% endfor %}
- </ul>
+      <div class="hero-unit">
+        <p>
+           <h3>
+             <!--    <a> <img src="{{ post.image }}" /> -->
+              <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+           </h3>
+           {{ post.date | date_to_string }} - {{site.author}}
+       </p>
+        <p>{{ post.content | strip_html | truncatewords: 55 }}</p>
+        <p><a href="{{ BASE_PATH }}{{ post.url }}">Read more ...</a></p>
+      </div>
+    {% endfor %}
+   </ul>
   </div>
   <div class="span3">
  <h3>Timeline</h3> 

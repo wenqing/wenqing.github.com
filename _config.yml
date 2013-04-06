@@ -16,6 +16,12 @@ pygments:    false
 markdown:    maruku
 permalink:   date
 
+gravatar: 92f354b0a3a11920792f1075bf067308
+email: me@localhost.com
+web: 
+twitter: 
+github: wenqing
+
 maruku:
   use_tex:    false
   use_divs:   false
@@ -43,4 +49,6 @@ kramdown:
     coderay_tab_width: 4
     coderay_bold_every: 10
     coderay_css: style
+
+
 
