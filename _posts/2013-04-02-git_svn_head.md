@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 ##############image: /img/17584633.jpg
 title: Checkout the head revision of svn repository by using git 
 ---
