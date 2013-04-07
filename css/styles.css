@@ -1,4 +1,4 @@
-body {
+/*body {
   font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;
   background: white;
   color: black; #####ececec;
@@ -73,5 +73,53 @@ ul.entries a:hover {
 footer {
   font-size: 0.65em;
   text-align: center;
+}
+*/
+
+.shdow_box1 {
+  padding: 55px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 30px;
+  color: inherit;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+
+  background-color: #fff; /*#eeeeee;*/
+  background-image: 
+  linear-gradient(90deg, transparent 49px, #abced4 49px, #abced4 51px, transparent   51px),
+  linear-gradient(#eee .1em, transparent .1em);
+  background-size: 100% 1.2em;
+
+
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 5px 5px 5px black;
+  -webkit-box-shadow: 5px 5px 5px black;
+  box-shadow: 5px 5px 5px black;
+}
+
+.shdow_box2 {
+  padding: 30px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 30px;
+  color: inherit;
+  background-color: #eeeeee;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+
+  -moz-box-shadow: inset -5px -5px 5px #888;
+  -webkit-box-shadow: inset -5px -5px 5px #888;
+   box-shadow: inset -5px -5px 5px #888;
+/*
+-moz-box-shadow: 5px 5px rgb(10,0,100);
+-webkit-box-shadow: 5px 5px rgb(10,0,0);
+box-shadow: 5px 5px rgb(10,80,100);
+*/
 }
 
