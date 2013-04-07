@@ -123,3 +123,10 @@ box-shadow: 5px 5px rgb(10,80,100);
 */
 }
 
+.navbar-inner {
+  background-color: #000; /* background color will be black for all browsers */
+  background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
+}
+
