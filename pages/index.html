@@ -9,10 +9,10 @@ layout: default
     {% for post in site.posts %}
       <div class="shdow_box1">
         <p>
-           <h3>
+           <h4>
              <!--    <a> <img src="{{ post.image }}" /> -->
               <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-           </h3>
+           </h4>
            {{ post.date | date_to_string }} <!-- - {{site.author}} -->
        </p>
         <p>{{ post.content | strip_html | truncatewords: 55 }}</p>
