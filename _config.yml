@@ -12,8 +12,9 @@ paginate: 10
 safe: true
 future:      true
 lsi:         false
-pygments:    false
-markdown:    maruku
+##pygments:  false
+highlighter: pygments
+markdown:    Kramdown ### maruku
 permalink:   date
 
 gravatar: 92f354b0a3a11920792f1075bf067308
@@ -21,13 +22,6 @@ email: me@localhost.com
 web: 
 twitter: 
 github: wenqing
-
-maruku:
-  use_tex:    false
-  use_divs:   false
-  png_engine: blahtex
-  png_dir:    images/latex
-  png_url:    /images/latex
 
 rdiscount:
   extensions: []
