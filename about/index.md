@@ -7,4 +7,4 @@ layout: default
   <h2>About me</h2>
 </section>
 
-It is me at <a href="https://github.com/wenqing/">github</a>.
+It's me at <a href="https://github.com/wenqing/">github</a>.

@@ -4,7 +4,7 @@ comments: false
 ---
 
  <!-- CSS -->
-    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
 
       /* Sticky footer styles
@@ -60,7 +60,7 @@ comments: false
       }
 
     </style>
-    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
 
 
 
@@ -69,7 +69,7 @@ comments: false
 <div id="wrap">
 
 <div class="row-fluid">
-  <div class="span9">
+  <div class="col-lg-8">
   <article>
   <!--{% assign author = site.authors[page.author] %}--> 
     <header>
@@ -91,7 +91,7 @@ comments: false
 
    <div class="container-fluid">
       <div class="row-fluid">
-        <div class="span3">
+        <div class="col-lg-4">
           <div class="well sidebar-nav">
            <p style="color:#FF00CC"> Related posts</p>  
             <ul class="nav nav-list">
@@ -126,7 +126,7 @@ comments: false
 
         (function() {
             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.bootstrap/';
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
     </script>
@@ -135,29 +135,23 @@ comments: false
     {% endif %} 
 -->
 
-
-
-
     <!-- Le javascript
 ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/js/jquery.js"></script>
-    <script src="/js/bootstrap-transition.js"></script>
-    <script src="/js/bootstrap-alert.js"></script>
-    <script src="/js/bootstrap-modal.js"></script>
-    <script src="/js/bootstrap-dropdown.js"></script>
-    <script src="/js/bootstrap-scrollspy.js"></script>
-    <script src="/js/bootstrap-tab.js"></script>
-    <script src="/js/bootstrap-tooltip.js"></script>
-    <script src="/js/bootstrap-popover.js"></script>
-    <script src="/js/bootstrap-button.js"></script>
-    <script src="/js/bootstrap-collapse.js"></script>
-    <script src="/js/bootstrap-carousel.js"></script>
-    <script src="/js/bootstrap-typeahead.js"></script>
+    <script src="/bootstrap/js/jquery.bootstrap/"></script>
+    <script src="/bootstrap/js/bootstrap-transition.bootstrap/"></script>
+    <script src="/bootstrap/js/bootstrap-alert.bootstrap/"></script>
+    <script src="/bootstrap/js/bootstrap-modal.bootstrap/"></script>
+    <script src="/bootstrap/js/bootstrap-dropdown.bootstrap/"></script>
+    <script src="/bootstrap/js/bootstrap-scrollspy.bootstrap/"></script>
+    <script src="/bootstrap/js/bootstrap-tab.bootstrap/"></script>
+    <script src="/bootstrap/js/bootstrap-tooltip.bootstrap/"></script>
+    <script src="/bootstrap/js/bootstrap-popover.bootstrap/"></script>
+    <script src="/bootstrap/js/bootstrap-button.bootstrap/"></script>
+    <script src="/bootstrap/js/bootstrap-collapse.bootstrap/"></script>
+    <script src="/bootstrap/js/bootstrap-carousel.bootstrap/"></script>
+    <script src="/bootstrap/js/bootstrap-typeahead.bootstrap/"></script>
 </body>
- 
-
-
 
 <!--<img src="{{ page.image }}" />-->
 

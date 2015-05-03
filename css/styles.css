@@ -130,3 +130,13 @@ box-shadow: 5px 5px rgb(10,80,100);
   filter: none;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.dropdown-backdrop {
+  position: static;
+}
+
